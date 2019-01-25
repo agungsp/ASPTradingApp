@@ -1,0 +1,21 @@
+C:\Users\Agung Setyo Pribadi\source\repos\ASP Trading App 2\ASP Trading App 2\bin\Debug\ASP Trading App 2.exe
+C:\Users\Agung Setyo Pribadi\source\repos\ASP Trading App 2\ASP Trading App 2\bin\Debug\ASP Trading App 2.pdb
+C:\Users\Agung Setyo Pribadi\source\repos\ASP Trading App 2\ASP Trading App 2\bin\Debug\MySql.Data.dll
+C:\Users\Agung Setyo Pribadi\source\repos\ASP Trading App 2\ASP Trading App 2\obj\Debug\ASP_Trading_App_2.MainForm.resources
+C:\Users\Agung Setyo Pribadi\source\repos\ASP Trading App 2\ASP Trading App 2\obj\Debug\ASP_Trading_App_2.Properties.Resources.resources
+C:\Users\Agung Setyo Pribadi\source\repos\ASP Trading App 2\ASP Trading App 2\obj\Debug\ASP Trading App 2.csproj.GenerateResource.cache
+C:\Users\Agung Setyo Pribadi\source\repos\ASP Trading App 2\ASP Trading App 2\obj\Debug\ASP Trading App 2.csproj.CoreCompileInputs.cache
+C:\Users\Agung Setyo Pribadi\source\repos\ASP Trading App 2\ASP Trading App 2\obj\Debug\ASP Trading App 2.csproj.CopyComplete
+C:\Users\Agung Setyo Pribadi\source\repos\ASP Trading App 2\ASP Trading App 2\obj\Debug\ASP Trading App 2.exe
+C:\Users\Agung Setyo Pribadi\source\repos\ASP Trading App 2\ASP Trading App 2\obj\Debug\ASP Trading App 2.pdb
+C:\Users\Agung Setyo Pribadi\source\repos\ASP Trading App 2\ASP Trading App 2\obj\Debug\ASP_Trading_App_2.BaseForms.MasterForm.resources
+C:\Users\Agung Setyo Pribadi\source\repos\ASP Trading App 2\ASP Trading App 2\obj\Debug\ASP_Trading_App_2.DatabaseSetting.resources
+C:\Users\Agung Setyo Pribadi\source\repos\ASP Trading App 2\ASP Trading App 2\obj\Debug\ASP_Trading_App_2.LoginForm.resources
+C:\Users\Agung Setyo Pribadi\source\repos\ASP Trading App 2\ASP Trading App 2\obj\Debug\ASP_Trading_App_2.Forms.Master.General.ASPMJabatanForm.resources
+C:\Users\Agung Setyo Pribadi\source\repos\ASP Trading App 2\ASP Trading App 2\obj\Debug\ASP_Trading_App_2.CommonComponent.ASPBrowse.ASPBrowseForm.resources
+C:\Users\Agung Setyo Pribadi\source\repos\ASP Trading App 2\ASP Trading App 2\obj\Debug\ASP_Trading_App_2.Forms.Master.General.ASPMKaryawanForm.resources
+C:\Users\Agung Setyo Pribadi\source\repos\ASP Trading App 2\ASP Trading App 2\obj\Debug\ASP_Trading_App_2.CommonComponent.ASPBrowse.BrowseFind.resources
+C:\Users\Agung Setyo Pribadi\source\repos\ASP Trading App 2\ASP Trading App 2\obj\Debug\ASP_Trading_App_2.BaseForms.EditorForm.resources
+C:\Users\Agung Setyo Pribadi\source\repos\ASP Trading App 2\ASP Trading App 2\obj\Debug\ASP_Trading_App_2.BaseForms.MasterBlankForm.resources
+C:\Users\Agung Setyo Pribadi\source\repos\ASP Trading App 2\ASP Trading App 2\obj\Debug\ASP Trading App 2.csprojAssemblyReference.cache
+C:\Users\Agung Setyo Pribadi\source\repos\ASP Trading App 2\ASP Trading App 2\obj\Debug\ASP_Trading_App_2.Forms.Master.General.ASPMGroupForm.resources

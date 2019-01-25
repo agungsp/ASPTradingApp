@@ -1,0 +1,242 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{845413FE-7D3F-45BF-8257-84BBC3D7F8EB}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>ASP_Trading_App_2</RootNamespace>
+    <AssemblyName>ASP Trading App 2</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data, Version=6.9.8.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\MySQL\MySQL Connector Net 6.9.8\Assemblies\v4.0\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BaseForms\EditorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BaseForms\EditorForm.Designer.cs">
+      <DependentUpon>EditorForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BaseForms\MasterBlankForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BaseForms\MasterBlankForm.Designer.cs">
+      <DependentUpon>MasterBlankForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BaseForms\MasterForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BaseForms\MasterForm.Designer.cs">
+      <DependentUpon>MasterForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CommonComponent\ASPBrowse\ASPBrowseForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CommonComponent\ASPBrowse\ASPBrowseForm.Designer.cs">
+      <DependentUpon>ASPBrowseForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CommonComponent\ASPBrowse\ASPBrowse_DBC.cs" />
+    <Compile Include="CommonComponent\ASPBrowse\BrowseFind.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CommonComponent\ASPBrowse\BrowseFind.Designer.cs">
+      <DependentUpon>BrowseFind.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CommonComponent\ASPCast.cs" />
+    <Compile Include="CommonComponent\ASPComboboxItem.cs" />
+    <Compile Include="CommonComponent\ASPCommon.cs" />
+    <Compile Include="CommonComponent\ASPMsgCmp.cs" />
+    <Compile Include="CommonComponent\ASPConstant.cs" />
+    <Compile Include="CommonComponent\ASPMessage.cs" />
+    <Compile Include="CommonComponent\INIFile.cs" />
+    <Compile Include="DatabaseSetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DatabaseSetting.Designer.cs">
+      <DependentUpon>DatabaseSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataObject\Master\General\ASPMJabatan_DO.cs" />
+    <Compile Include="DataObject\Master\General\ASPMKaryawan_DO.cs" />
+    <Compile Include="DataObject\Master\General\ASPMUser_DO.cs" />
+    <Compile Include="DataObject\Master\General\Group\ASPMGroup_DO.cs" />
+    <Compile Include="DataObject\System\ASPSysInfo_DO.cs" />
+    <Compile Include="DBComm\Master\General\ASPMJabatan_DBC.cs" />
+    <Compile Include="DBComm\Master\General\ASPMKaryawan_DBC.cs" />
+    <Compile Include="DBComm\Master\General\ASPMUser_DBC.cs" />
+    <Compile Include="DBComm\Master\General\Group\ASPMGroup_DBC.cs" />
+    <Compile Include="DBComm\System\ASPSysInfo_DBC.cs" />
+    <Compile Include="DBComponent\ASPQuery.cs" />
+    <Compile Include="DBComponent\DBConnection.cs" />
+    <Compile Include="Forms\Master\General\ASPMGroupForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Master\General\ASPMGroupForm.Designer.cs">
+      <DependentUpon>ASPMGroupForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Master\General\ASPMJabatanForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Master\General\ASPMJabatanForm.Designer.cs">
+      <DependentUpon>ASPMJabatanForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Master\General\ASPMKaryawanForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Master\General\ASPMKaryawanForm.Designer.cs">
+      <DependentUpon>ASPMKaryawanForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginForm.Designer.cs">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="BaseForms\EditorForm.resx">
+      <DependentUpon>EditorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BaseForms\MasterBlankForm.resx">
+      <DependentUpon>MasterBlankForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BaseForms\MasterForm.resx">
+      <DependentUpon>MasterForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CommonComponent\ASPBrowse\ASPBrowseForm.resx">
+      <DependentUpon>ASPBrowseForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CommonComponent\ASPBrowse\BrowseFind.resx">
+      <DependentUpon>BrowseFind.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DatabaseSetting.resx">
+      <DependentUpon>DatabaseSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Master\General\ASPMGroupForm.resx">
+      <DependentUpon>ASPMGroupForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Master\General\ASPMJabatanForm.resx">
+      <DependentUpon>ASPMJabatanForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Master\General\ASPMKaryawanForm.resx">
+      <DependentUpon>ASPMKaryawanForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginForm.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Icons\Broom.png" />
+    <Content Include="Icons\Cancel.png" />
+    <Content Include="Icons\CaretDown.png" />
+    <Content Include="Icons\Delete.png" />
+    <Content Include="Icons\Edit.png" />
+    <Content Include="Icons\Enter.png" />
+    <None Include="Icons\ico-app.png" />
+    <None Include="Icons\icons8_Add_24px_1.png" />
+    <Content Include="Icons\icons8_Add_File_36px.png" />
+    <None Include="Icons\icons8_Add_New_24px_1.png" />
+    <None Include="Icons\icons8_Add_List_24px_1.png" />
+    <Content Include="Icons\icons8_Below_16px.png" />
+    <Content Include="Icons\icons8_Below_24px.png" />
+    <None Include="Icons\icons8_Cancel_24px.png" />
+    <None Include="Icons\icons8_Cancel_24px_base.png" />
+    <Content Include="Icons\icons8_Cancel_36px.png" />
+    <None Include="Icons\icons8_Delete_Bin_24px.png" />
+    <None Include="Icons\icons8_Delete_File_24px.png" />
+    <Content Include="Icons\icons8_Delete_File_36px.png" />
+    <None Include="Icons\icons8_Edit_24px_1.png" />
+    <None Include="Icons\icons8_Edit_File_24px.png" />
+    <Content Include="Icons\icons8_Edit_File_36px.png" />
+    <None Include="Icons\icons8_List_24px.png" />
+    <None Include="Icons\icons8_List_24px_1.png" />
+    <Content Include="Icons\icons8_Low_Importance_16px.png" />
+    <Content Include="Icons\icons8_Low_Importance_24px.png" />
+    <Content Include="Icons\icons8_Low_Importance_32px.png" />
+    <None Include="Icons\icons8_Save_24px.png" />
+    <Content Include="Icons\icons8_Save_36px.png" />
+    <Content Include="Icons\icons8_Search_16px.png" />
+    <Content Include="Icons\icons8_Search_24px.png" />
+    <None Include="Icons\icons8_Shutdown_24px.png" />
+    <Content Include="Icons\icons8_Shutdown_36px.png" />
+    <Content Include="Icons\login.png" />
+    <Content Include="Icons\Plus.png" />
+    <Content Include="Icons\Save.png" />
+    <Content Include="Icons\Search.png" />
+    <Content Include="Icons\Shutdown.png" />
+    <Content Include="Icons\Sync.png" />
+    <Content Include="Icons\Trash.png" />
+    <Content Include="Icons\Unlock.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="DataObject\Transaksi\" />
+    <Folder Include="DBComm\Transaksi\" />
+    <Folder Include="Forms\Master\General\ASPMGroup\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
